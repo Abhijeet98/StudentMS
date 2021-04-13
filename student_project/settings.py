@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+#import django heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -124,9 +125,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+<<<<<<< HEAD
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+=======
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+>>>>>>> 2d75a1d9753f0691eebd4fb8a12d9cb820dba1da
 
 STATIC_URL = '/static/'
 
 # Activate Django-Heroku.
+<<<<<<< HEAD
 #django_heroku.settings(locals())
+=======
+django_heroku.settings(locals())
+>>>>>>> 2d75a1d9753f0691eebd4fb8a12d9cb820dba1da
